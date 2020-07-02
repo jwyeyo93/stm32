@@ -772,3 +772,484 @@
 
 
 2020-07-02 11:27:05,154 [INFO] Activator:177 - !SESSION log4j initialized
+2020-07-02 12:16:26,648 [INFO] Activator:176 - 
+
+
+2020-07-02 12:16:26,651 [INFO] Activator:177 - !SESSION log4j initialized
+2020-07-02 12:18:59,476 [INFO] ApplicationProperties:181 - Using Application install path: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-07-02 12:18:59,488 [INFO] DbMcusXml:72 - Set database path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-07-02 12:18:59,492 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-07-02 12:18:59,492 [INFO] DbMcus:235 - Set plugin images path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-07-02 12:18:59,493 [INFO] DbBoards:232 - Set plugin images path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-07-02 12:18:59,498 [INFO] DbMcusAds:85 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,499 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,501 [INFO] DbMcusJson:61 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,502 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,503 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,580 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-07-02 12:18:59,670 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-07-02 12:18:59,744 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_242
+2020-07-02 12:18:59,745 [INFO] DbMcusXml:72 - Set database path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-07-02 12:18:59,746 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-07-02 12:18:59,746 [INFO] DbMcus:235 - Set plugin images path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-07-02 12:18:59,747 [INFO] DbBoards:232 - Set plugin images path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-07-02 12:18:59,748 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,748 [INFO] DbMcusAds:85 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,748 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,749 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,749 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,750 [INFO] DbMcusJson:61 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,750 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,750 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,750 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,751 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,751 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,751 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,752 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-07-02 12:18:59,844 [INFO] MainPanel:181 - HeapMemory: 310378496
+2020-07-02 12:18:59,907 [INFO] DbMcusXml:72 - Set database path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/
+2020-07-02 12:18:59,907 [INFO] DbBoardsPdsc:54 - Set plugin database path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/boardmanager/
+2020-07-02 12:18:59,908 [INFO] DbMcus:235 - Set plugin images path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-07-02 12:18:59,908 [INFO] DbBoards:232 - Set plugin images path to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/plugins/mcufinder/images/
+2020-07-02 12:18:59,909 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,909 [INFO] DbMcusAds:85 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,909 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,910 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,910 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,910 [INFO] DbMcusJson:61 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,911 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,911 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,911 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,911 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/
+2020-07-02 12:18:59,912 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,912 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder/ => C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder
+2020-07-02 12:18:59,912 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\ZESTECH_WIN7\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-07-02 12:18:59,929 [INFO] ApplicationProperties:181 - Using Application install path: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-07-02 12:18:59,930 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-07-02 12:18:59,932 [INFO] PluginManage:292 - Check plugin analytics
+2020-07-02 12:18:59,937 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-07-02 12:18:59,937 [INFO] PluginManage:292 - Check plugin clock
+2020-07-02 12:18:59,947 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-07-02 12:18:59,948 [INFO] PluginManage:292 - Check plugin ddr
+2020-07-02 12:18:59,950 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-07-02 12:18:59,951 [INFO] PluginManage:292 - Check plugin filemanager
+2020-07-02 12:19:00,079 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-07-02 12:19:00,079 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-07-02 12:19:00,088 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-07-02 12:19:00,088 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-07-02 12:19:00,097 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-07-02 12:19:00,098 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-07-02 12:19:00,123 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-07-02 12:19:00,124 [INFO] PluginManage:292 - Check plugin power
+2020-07-02 12:19:00,132 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-07-02 12:19:00,133 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-07-02 12:19:00,149 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-07-02 12:19:00,150 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-07-02 12:19:00,186 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 15 ms. number of Sw pack : 7
+2020-07-02 12:19:00,206 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-07-02 12:19:00,206 [INFO] PluginManage:292 - Check plugin tools
+2020-07-02 12:19:00,209 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-07-02 12:19:00,209 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-07-02 12:19:00,209 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-07-02 12:19:00,210 [INFO] PluginManage:292 - Check plugin updater
+2020-07-02 12:19:00,220 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-07-02 12:19:00,221 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-07-02 12:19:00,369 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:19:00,446 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,447 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-07-02 12:19:00,450 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,450 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-07-02 12:19:00,453 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,453 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-07-02 12:19:00,455 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,456 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-07-02 12:19:00,458 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,459 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-07-02 12:19:00,461 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,461 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-07-02 12:19:00,466 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,467 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-07-02 12:19:00,469 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,469 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-07-02 12:19:00,473 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,474 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-07-02 12:19:00,479 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,479 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-07-02 12:19:00,481 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,481 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-07-02 12:19:00,483 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,483 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-07-02 12:19:00,491 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,491 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-07-02 12:19:00,495 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,495 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-07-02 12:19:00,497 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,498 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-07-02 12:19:00,500 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,500 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-07-02 12:19:00,502 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,503 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-07-02 12:19:00,505 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,505 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-07-02 12:19:00,508 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,509 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-07-02 12:19:00,510 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,510 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-07-02 12:19:00,513 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,514 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-07-02 12:19:00,517 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,517 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-07-02 12:19:00,519 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,520 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-07-02 12:19:00,522 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,523 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-07-02 12:19:00,528 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,532 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-07-02 12:19:00,534 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,534 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-07-02 12:19:00,537 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,538 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-07-02 12:19:00,540 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,541 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-07-02 12:19:00,543 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,543 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-07-02 12:19:00,547 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,548 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-07-02 12:19:00,550 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,550 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-07-02 12:19:00,554 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,554 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-07-02 12:19:00,557 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,557 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-07-02 12:19:00,559 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,561 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-07-02 12:19:00,563 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,563 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-07-02 12:19:00,566 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,566 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-07-02 12:19:00,569 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:00,569 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-07-02 12:19:00,897 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-07-02 12:19:00,898 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: null
+2020-07-02 12:19:01,049 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-07-02 12:19:01,204 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-07-02 12:19:01,207 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:19:01,208 [FATAL] Updater:277 - Updater called before beeing initialized
+2020-07-02 12:19:01,212 [INFO] BoardConnectionPanel:3472 - [DDR PANEL] STM32CubeIDE environment
+2020-07-02 12:19:01,212 [INFO] MainDdrPanel:103 - [DDR PANEL] GETTER - cubeProgrammerPath is: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-07-02 12:19:01,216 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin\STM32_Programmer_CLI.exe -l
+2020-07-02 12:19:01,515 [INFO] MainDdrPanel:93 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.3.0.202002181050\tools\bin
+2020-07-02 12:19:01,520 [INFO] Updater:886 - Updater Version found : 5.6.0
+2020-07-02 12:19:01,536 [INFO] ApplicationProperties:181 - Using Application install path: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639
+2020-07-02 12:19:01,627 [INFO] MainUpdater:2230 - connection check result : 10
+2020-07-02 12:19:01,628 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-07-02 12:19:01,629 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-07-02 12:19:01,655 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-07-02 12:19:01,832 [INFO] MainUpdater:2230 - connection check result : 10
+2020-07-02 12:19:01,890 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-07-02 12:19:01,890 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-07-02 12:19:01,902 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:19:01,903 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 255726616 Bytes (310378496)
+2020-07-02 12:19:01,904 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-07-02 12:19:01,904 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-07-02 12:19:01,904 [INFO] OpenFileManager:274 - Change cursor
+2020-07-02 12:19:03,225 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-07-02 12:19:03,252 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2020-07-02 12:19:04,393 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2020-07-02 12:19:04,395 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2020-07-02 12:19:04,614 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 254695256 Bytes (762314752)
+2020-07-02 12:19:04,615 [INFO] DbMcusXml:110 - Load MCU database from D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\/mcu/families.xml
+2020-07-02 12:19:05,111 [INFO] DbMcusJson:90 - JSON generation date=Thu Jun 04 00:10:31 KST 2020 (1591197031)
+2020-07-02 12:19:05,646 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-07-02 12:19:05,647 [INFO] ApiDb:158 - Load user favorites file C:\Users\ZESTECH_WIN7/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2020-07-02 12:19:05,648 [INFO] ApiDb:163 - User favorites MCUs=[]
+2020-07-02 12:19:05,648 [INFO] DbMcus:183 - Set 0 / 0 favorites MCUs
+2020-07-02 12:19:05,703 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 3 ms. number of Sw pack : 7
+2020-07-02 12:19:05,814 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-07-02 12:19:05,814 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.13.0
+2020-07-02 12:19:05,814 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-07-02 12:19:05,814 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.1.1
+2020-07-02 12:19:05,815 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-07-02 12:19:05,815 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-07-02 12:19:05,815 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.0.0
+2020-07-02 12:19:06,145 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:19:06,146 [INFO] PinOutPanel:1420 - setPackage(STM32F407VGTx,LQFP100)
+2020-07-02 12:19:06,531 [INFO] UtilMem:74 - Before build in PCC Used Memory: 440805784 Bytes (860880896)
+2020-07-02 12:19:06,880 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:19:06,919 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:19:06,963 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:19:06,968 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:19:07,130 [INFO] UtilMem:74 - After build in PCC Used Memory: 500685048 Bytes (860880896)
+2020-07-02 12:19:07,149 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,149 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,149 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,149 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,150 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,150 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,150 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,150 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,150 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,151 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,152 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,152 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,152 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,152 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,152 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,153 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,153 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,153 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,153 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,153 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,153 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,154 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,154 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,154 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,154 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,154 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,154 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,155 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,155 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,155 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,155 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,155 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,155 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,156 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,157 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,157 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,157 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,157 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,157 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,157 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,158 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,158 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,159 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,159 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,159 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,159 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:19:07,188 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2020-07-02 12:19:07,269 [INFO] OpenFileManager:294 - Restore cursor
+2020-07-02 12:19:25,525 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,517x421,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-07-02 12:20:42,190 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,517x421,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-07-02 12:24:59,235 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 334271960 Bytes (860880896)
+2020-07-02 12:25:16,970 [INFO] MainUpdater:2230 - connection check result : 10
+2020-07-02 12:25:17,005 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-07-02 12:25:17,005 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-07-02 12:25:17,007 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:25:17,010 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 437432280 Bytes (860880896)
+2020-07-02 12:25:17,011 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-07-02 12:25:17,011 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-07-02 12:25:17,011 [INFO] OpenFileManager:274 - Change cursor
+2020-07-02 12:25:17,020 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-07-02 12:25:18,738 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2020-07-02 12:25:18,738 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2020-07-02 12:25:18,915 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 661117344 Bytes (860880896)
+2020-07-02 12:25:19,011 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-07-02 12:25:19,011 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.13.0
+2020-07-02 12:25:19,011 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-07-02 12:25:19,011 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.1.1
+2020-07-02 12:25:19,011 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-07-02 12:25:19,011 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-07-02 12:25:19,011 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.0.0
+2020-07-02 12:25:19,139 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:25:19,140 [INFO] PinOutPanel:1420 - setPackage(STM32F407VGTx,LQFP100)
+2020-07-02 12:25:19,362 [INFO] UtilMem:74 - Before build in PCC Used Memory: 402940688 Bytes (860880896)
+2020-07-02 12:25:19,492 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:19,532 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:19,560 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:19,564 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:19,609 [INFO] UtilMem:74 - After build in PCC Used Memory: 446980880 Bytes (860880896)
+2020-07-02 12:25:19,624 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,624 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,624 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,624 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,625 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,625 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,625 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,625 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,625 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,625 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,625 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,626 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,626 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,626 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,628 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,628 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,628 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,628 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,628 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,629 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,629 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,629 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,629 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,629 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,630 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,631 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,631 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,632 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,632 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,632 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,632 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,632 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,632 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,633 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,634 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,634 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,634 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,634 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,634 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,634 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,634 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,635 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,635 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,635 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,635 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:19,659 [INFO] OpenFileManager:294 - Restore cursor
+2020-07-02 12:25:28,568 [INFO] NvicIntPanel:88 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2020-07-02 12:25:48,134 [INFO] MainUpdater:2230 - connection check result : 10
+2020-07-02 12:25:48,161 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-07-02 12:25:48,161 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-07-02 12:25:48,163 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:25:48,165 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 752663320 Bytes (860880896)
+2020-07-02 12:25:48,166 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-07-02 12:25:48,166 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-07-02 12:25:48,166 [INFO] OpenFileManager:274 - Change cursor
+2020-07-02 12:25:49,404 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (48MHZClocksFreq_Value) has invalid value (84000000)
+2020-07-02 12:25:49,405 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2020-07-02 12:25:49,563 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 509141984 Bytes (860880896)
+2020-07-02 12:25:49,587 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.1.0
+2020-07-02 12:25:49,587 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.13.0
+2020-07-02 12:25:49,587 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.2
+2020-07-02 12:25:49,587 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 5.1.1
+2020-07-02 12:25:49,587 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-07-02 12:25:49,587 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-07-02 12:25:49,588 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.0.0
+2020-07-02 12:25:49,675 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-07-02 12:25:49,676 [INFO] PinOutPanel:1420 - setPackage(STM32F407VGTx,LQFP100)
+2020-07-02 12:25:49,840 [INFO] UtilMem:74 - Before build in PCC Used Memory: 616396608 Bytes (860880896)
+2020-07-02 12:25:49,945 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:49,979 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:49,999 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:50,002 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/ZESTECH_WIN7/.stm32cubemx/plugins/power
+2020-07-02 12:25:50,038 [INFO] UtilMem:74 - After build in PCC Used Memory: 660436800 Bytes (860880896)
+2020-07-02 12:25:50,048 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,049 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,050 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,051 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,052 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,053 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,054 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,055 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,056 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,056 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,056 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,057 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-07-02 12:25:50,079 [INFO] OpenFileManager:294 - Restore cursor
+2020-07-02 12:26:27,060 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 737190112 Bytes (860880896)
+2020-07-02 12:26:27,439 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-07-02 12:26:27,440 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: RCC
+2020-07-02 12:26:27,440 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-07-02 12:26:27,440 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: USART
+2020-07-02 12:26:27,440 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-07-02 12:26:27,441 [INFO] CodeGenerator:603 - code generatio: config db path: D:\STM32CubeIDE_1.3.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_5.6.0.202002181639\\db\
+2020-07-02 12:26:27,741 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\MXTmpFiles\license.tmp_save
+2020-07-02 12:26:27,984 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\MXTmpFiles\license.tmp
+2020-07-02 12:26:28,076 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\MXTmpFiles\gpio.tmp_save
+2020-07-02 12:26:28,163 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\MXTmpFiles\gpio.tmp
+2020-07-02 12:26:28,216 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2020-07-02 12:26:28,217 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for USART
+2020-07-02 12:26:28,217 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-02 12:26:28,218 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Debug : prepare data for NVIC
+2020-07-02 12:26:28,219 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line test
+2020-07-02 12:26:28,227 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Src\stm32f4xx_it.c_save
+2020-07-02 12:26:28,338 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Src\stm32f4xx_it.c
+2020-07-02 12:26:28,344 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Inc\stm32f4xx_it.h_save
+2020-07-02 12:26:28,409 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Inc\stm32f4xx_it.h
+2020-07-02 12:26:28,422 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Src\stm32f4xx_hal_msp.c_save
+2020-07-02 12:26:28,529 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Src\stm32f4xx_hal_msp.c
+2020-07-02 12:26:28,533 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\MXTmpFiles\system.tmp_save
+2020-07-02 12:26:28,589 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\MXTmpFiles\system.tmp
+2020-07-02 12:26:28,594 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Inc\stm32f4xx_hal_conf.h_save
+2020-07-02 12:26:28,663 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Inc\stm32f4xx_hal_conf.h
+2020-07-02 12:26:28,684 [WARN] IPConfigManager:2701 - IP not found : gpio
+2020-07-02 12:26:28,685 [WARN] CodeGenerator:2649 - IP not found : gpio
+2020-07-02 12:26:28,689 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Inc\main.h_save
+2020-07-02 12:26:28,758 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Inc\main.h
+2020-07-02 12:26:28,763 [INFO] CodeEngine:188 - oldGeneratedFile, D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Src\main.c_save
+2020-07-02 12:26:28,864 [INFO] CodeEngine:206 - Generated code: D:\STM32CubeIDE_1.3.0_workspace\UART_falling_test\Core\Src\main.c
+2020-07-02 12:26:29,533 [INFO] ProjectBuilder:2002 - Time for Copy HAL[1] : 54mS.
+2020-07-02 12:26:29,536 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-07-02 12:26:29,867 [INFO] ConfigFileManager:1066 - The Die is : DIE413
+2020-07-02 12:26:32,117 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 2576mS.
+2020-07-02 12:26:32,118 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.
+2020-07-02 12:26:32,120 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 0mS.

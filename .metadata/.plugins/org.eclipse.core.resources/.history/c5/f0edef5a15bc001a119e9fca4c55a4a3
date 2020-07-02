@@ -42,7 +42,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart2;
-uint8_t rx2_data;
+uint8_t rx3_data;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -99,7 +99,7 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_IT(&huart2, &rx2_data, 1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -230,10 +230,9 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-	if(huart->Instance == USART2)
+	if(huart->Instance == USART3)
 	{
-		HAL_UART_Receive_IT(&huart2, &rx2_data, 1);		// 인터럽트 수신 함수
-		HAL_UART_Transmit(&huart2, &rx2_data, 1, 10);
+		HAL_UART_Receive_IT(&huart3, &rx3_data, 1);		// 인터럽트 수신 함수
 	}
 
 

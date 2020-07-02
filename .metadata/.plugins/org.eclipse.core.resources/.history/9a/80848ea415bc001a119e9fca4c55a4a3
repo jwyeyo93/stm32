@@ -99,7 +99,7 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_IT(&huart2, &rx2_data, 1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -233,7 +233,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 	if(huart->Instance == USART2)
 	{
 		HAL_UART_Receive_IT(&huart2, &rx2_data, 1);		// 인터럽트 수신 함수
-		HAL_UART_Transmit(&huart2, &rx2_data, 1, 10);
 	}
 
 
