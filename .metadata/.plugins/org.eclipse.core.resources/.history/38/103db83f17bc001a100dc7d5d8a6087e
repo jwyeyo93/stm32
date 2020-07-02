@@ -99,7 +99,7 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
-  HAL_UART_Receive_IT(&huart2, &rx2_data, 1);		// 데이터가 배열일 경우  HAL_UART_Receive_IT(&huart2, &rx2_data, ??배열크기에 맞게);
+  HAL_UART_Receive_IT(&huart2, &rx2_data, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
