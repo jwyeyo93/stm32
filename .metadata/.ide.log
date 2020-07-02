@@ -768,3 +768,7 @@
 2020-07-02 10:37:23,640 [INFO] IPUIPlugin:65 - create IPUIPlugin
 2020-07-02 10:37:23,640 [INFO] IPUIPlugin:65 - create IPUIPlugin
 2020-07-02 10:37:23,665 [INFO] OpenFileManager:294 - Restore cursor
+2020-07-02 11:27:05,151 [INFO] Activator:176 - 
+
+
+2020-07-02 11:27:05,154 [INFO] Activator:177 - !SESSION log4j initialized

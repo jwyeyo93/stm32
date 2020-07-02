@@ -1,10 +1,10 @@
-11:03:39 **** Incremental Build of configuration Debug for project UART_falling_test ****
+11:48:40 **** Incremental Build of configuration Debug for project UART_falling_test ****
 make -j4 all 
 arm-none-eabi-size   UART_falling_test.elf 
    text	   data	    bss	    dec	    hex	filename
-   8880	     20	   1636	  10536	   2928	UART_falling_test.elf
+  12764	    120	   1648	  14532	   38c4	UART_falling_test.elf
 Finished building: default.size.stdout
  
 
-11:03:39 Build Finished. 0 errors, 0 warnings. (took 268ms)
+11:48:40 Build Finished. 0 errors, 0 warnings. (took 270ms)
 

@@ -54,7 +54,7 @@ static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 int _write(int file, char* p, int len)
 {
-	HAL_UART_Transmit(&huart2,  p, len, 10);
+	HAL_UART_Transmit(&huart2,  p, 1, 10);
 	return len;
 }
 
@@ -100,13 +100,10 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  uint8_t a = 0;
-  float f = 1.234;
   while (1)
   {
-	  printf("Hello %d\n", a++);
+	  printf("Hello\n");
 	  HAL_Delay(1000);
-
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

@@ -100,13 +100,10 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  uint8_t a = 0;
-  float f = 1.234;
   while (1)
   {
-	  printf("Hello %d\n", a++);
+	  printf("Hello\n");
 	  HAL_Delay(1000);
-
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
