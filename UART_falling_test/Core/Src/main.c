@@ -339,7 +339,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
   if(htim->Instance == TIM7)
   {
-	  HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
+	  HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);		// 1초마다 LED Toggle
   }
 }
 /* USER CODE END 4 */
