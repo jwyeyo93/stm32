@@ -101,13 +101,13 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);		// 몇번 ???���?, 몇번 채널
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);		// 몇번 ???���??, 몇번 채널
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
 
-  HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1);	// 타이머 10번의 1번 채널
+  HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1);	// ???���? 10번의 1�? 채널
 
-  // 반시계 방향 끝으로 이동
+  // 반시�? 방향 ?��?���? ?��?��
   TIM10->CCR1 = 1500;
 
   /* USER CODE END 2 */
@@ -116,11 +116,11 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   uint16_t ccr = 0;
   uint16_t psc = 1000;
-  uint8_t ud_flag = 0;		// 증가하면서 셀 건지 감소하면서 셀 건지
+  uint8_t ud_flag = 0;		// 증�??��면서 ?? 건�? 감소?��면서 ?? 건�?
 
   while (1)
   {
-	  if(ud_flag == 0)		// 증가
+	  if(ud_flag == 0)		// 증�?
 	  {
 		  psc++;
 		  if(psc >= 2500)	ud_flag = 1;
@@ -377,10 +377,10 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-// SW�?? ?��리면 ?��?�� ?���??
+// SW�??? ?��리면 ?��?�� ?���???
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-	if(GPIO_Pin == GPIO_PIN_0)		// 0�?? ???�� ?��결된 SW�?? ?��리면
+	if(GPIO_Pin == GPIO_PIN_0)		// 0�??? ???�� ?��결된 SW�??? ?��리면
 	{
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);
