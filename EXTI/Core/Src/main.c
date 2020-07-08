@@ -42,6 +42,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 TIM_HandleTypeDef htim4;
+TIM_HandleTypeDef htim10;
 
 UART_HandleTypeDef huart2;
 
@@ -53,6 +54,7 @@ UART_HandleTypeDef huart2;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_TIM4_Init(void);
+static void MX_TIM10_Init(void);
 static void MX_USART2_UART_Init(void);
 static void MX_NVIC_Init(void);
 /* USER CODE BEGIN PFP */
@@ -92,37 +94,45 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_TIM4_Init();		// 타이머 설정 초기화 함수
+  MX_TIM4_Init();
+  MX_TIM10_Init();
   MX_USART2_UART_Init();
 
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);		// 몇번 타이머, 몇번 채널
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);		// 몇번 ???���?, 몇번 채널
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);
   HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_3);
+
+  HAL_TIM_PWM_Start(&htim10, TIM_CHANNEL_1);	// 타이머 10번의 1번 채널
+
+  // 반시계 방향 끝으로 이동
+  TIM10->CCR1 = 1500;
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   uint16_t ccr = 0;
+  uint16_t psc = 1000;
+  uint8_t ud_flag = 0;		// 증가하면서 셀 건지 감소하면서 셀 건지
+
   while (1)
   {
-	  // 매크로 함수
-	  //방법 1
-	  //__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, ccr);
-
-	  //방법 2
-	  TIM4->CCR1 = ccr;
-	  ccr += 1000;
-
-	  // ccr 값이 AutoReload Register값보다 커지면 0으로 초기화
-	  if(ccr > TIM4->ARR)
+	  if(ud_flag == 0)		// 증가
 	  {
-		  ccr = 0;
+		  psc++;
+		  if(psc >= 2500)	ud_flag = 1;
 	  }
-	  HAL_Delay(50);
+	  else		// 감소
+	  {
+		  psc--;
+		  if(psc <= 1000)	ud_flag = 0;
+	  }
+
+	  TIM10->PSC = psc;
+	  HAL_Delay(1);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -239,13 +249,10 @@ static void MX_TIM4_Init(void)
   {
     Error_Handler();
   }
-
-  // 펄스폭 설정 부분
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 21000-1;		// CC Register
-  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;		// PWM 파형의 위상 변경 가능한 부분
+  sConfigOC.Pulse = 21000-1;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
-
   if (HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
   {
     Error_Handler();
@@ -264,6 +271,52 @@ static void MX_TIM4_Init(void)
 
   /* USER CODE END TIM4_Init 2 */
   HAL_TIM_MspPostInit(&htim4);
+
+}
+
+/**
+  * @brief TIM10 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM10_Init(void)
+{
+
+  /* USER CODE BEGIN TIM10_Init 0 */
+
+  /* USER CODE END TIM10_Init 0 */
+
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM10_Init 1 */
+
+  /* USER CODE END TIM10_Init 1 */
+  htim10.Instance = TIM10;
+  htim10.Init.Prescaler = 336-1;
+  htim10.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim10.Init.Period = 10000-1;
+  htim10.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim10.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim10) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_Init(&htim10) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 100;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim10, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM10_Init 2 */
+
+  /* USER CODE END TIM10_Init 2 */
+  HAL_TIM_MspPostInit(&htim10);
 
 }
 
@@ -313,6 +366,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin : PA0 */
   GPIO_InitStruct.Pin = GPIO_PIN_0;
@@ -323,10 +377,10 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-// SW�? ?��리면 ?��?�� ?���?
+// SW�?? ?��리면 ?��?�� ?���??
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-	if(GPIO_Pin == GPIO_PIN_0)		// 0�? ???�� ?��결된 SW�? ?��리면
+	if(GPIO_Pin == GPIO_PIN_0)		// 0�?? ???�� ?��결된 SW�?? ?��리면
 	{
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_12);
 		HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_13);

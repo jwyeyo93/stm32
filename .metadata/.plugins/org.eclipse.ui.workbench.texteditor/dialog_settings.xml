@@ -9,6 +9,13 @@
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
 			<item value="GPIO"/>
+			<item value="while"/>
+			<item value="PV"/>
+			<item value="PU"/>
+			<item value="SystemClock_Config"/>
+			<item value="MX_TIIM4"/>
+			<item value="SystemClock"/>
+			<item value="main"/>
 			<item value="MX_NVIC"/>
 			<item value="MX_GPIO"/>
 			<item value="MX_TIM7"/>
