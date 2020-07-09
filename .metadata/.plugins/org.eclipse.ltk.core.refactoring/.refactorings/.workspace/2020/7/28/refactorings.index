@@ -19,3 +19,4 @@
 1594198260941	Delete resource 'USART_printf'
 1594198836006	Delete resource 'EXTI'
 1594255744570	Delete resource 'EXTI2'
+1594258559837	Delete resource 'TIM_TimeBase'
