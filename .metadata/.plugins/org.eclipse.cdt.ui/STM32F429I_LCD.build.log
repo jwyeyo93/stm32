@@ -1,0 +1,10 @@
+17:59:30 **** Incremental Build of configuration Debug for project STM32F429I_LCD ****
+make -j16 all 
+arm-none-eabi-size   STM32F429I_LCD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12736	     12	   2012	  14760	   39a8	STM32F429I_LCD.elf
+Finished building: default.size.stdout
+ 
+
+17:59:31 Build Finished. 0 errors, 0 warnings. (took 663ms)
+

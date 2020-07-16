@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Demo_example\Open429I-C-Demo-HAL\Open429I-C-Demo-HAL\STM32F429I\1.LED"/>
+			<item value="D:\STM32CubeIDE\workspace\STM32F429I_LCD"/>
+			<item value="D:\Demo_example\Open429I-C-Demo-HAL\Open429I-C-Demo-HAL\STM32F429I\28.LCD_Display\2.LCD 800x480"/>
+			<item value="D:\Demo_example\Open429I-C-Demo-HAL\Open429I-C-Demo-HAL\STM32F429I\28.LCD_Display\2.LCD 800x480\Src"/>
+			<item value="D:\STM32CubeIDE\workspace\Project"/>
+		</list>
+	</section>
+</section>
