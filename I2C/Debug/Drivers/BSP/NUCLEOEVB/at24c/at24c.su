@@ -1,0 +1,2 @@
+at24c.c:5:1:AT24C_Write	56	static
+at24c.c:44:1:AT24C_Read	48	static
