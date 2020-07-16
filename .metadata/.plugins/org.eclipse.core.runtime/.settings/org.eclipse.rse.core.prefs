@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 activeuserprofiles=DESKTOP-2PD5S26;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=jw
 useridperkey=DESKTOP-2PD5S26.Local\=jw;
+=======
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=ZESTECH_WIN7
+useridperkey=ZESTECH_WIN7-PC.Local\=ZESTECH_WIN7;
+>>>>>>> 508831dfc040fda485bf39cdbb9916ced2cf036b

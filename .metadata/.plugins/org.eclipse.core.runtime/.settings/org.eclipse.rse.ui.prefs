@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.rse.preferences.order.connections=DESKTOP-2PD5S26.Local
+=======
+org.eclipse.rse.preferences.order.connections=ZESTECH_WIN7-PC.Local
+>>>>>>> 508831dfc040fda485bf39cdbb9916ced2cf036b

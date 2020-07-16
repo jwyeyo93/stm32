@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 scalability.reconciler=false
+=======
+clearConsole=false
+eclipse.preferences.version=1
+scalability.contentAssistAutoActivation=true
+scalability.parserBasedContentAssist=true
+scalability.reconciler=false
+scalability.semanticHighlight=true
+scalability.syntaxColor=true
+>>>>>>> 508831dfc040fda485bf39cdbb9916ced2cf036b
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
