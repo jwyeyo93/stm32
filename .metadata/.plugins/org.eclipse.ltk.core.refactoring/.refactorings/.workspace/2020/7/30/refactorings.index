@@ -3,3 +3,6 @@
 1595301737256	Delete resource 'KEY'
 1595307358507	Delete resource 'Interrupt_open103v'
 1595309457482	Delete resource 'TIM'
+1595312963058	Delete resource 'PWM_open103V'
+1595313933505	Delete resource 'USART-Printf_open103V'
+1595315930688	Delete resource 'USRAT_IT_open103V'
