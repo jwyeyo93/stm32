@@ -1,0 +1,10 @@
+12:40:52 **** Incremental Build of configuration Debug for project Interrupt_open103v ****
+make -j16 all 
+arm-none-eabi-size   Interrupt_open103v.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8164	     12	   1572	   9748	   2614	Interrupt_open103v.elf
+Finished building: default.size.stdout
+ 
+
+12:40:53 Build Finished. 0 errors, 0 warnings. (took 512ms)
+
