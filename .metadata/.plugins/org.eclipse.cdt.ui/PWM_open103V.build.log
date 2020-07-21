@@ -1,0 +1,10 @@
+15:07:21 **** Incremental Build of configuration Debug for project PWM_open103V ****
+make -j16 all 
+arm-none-eabi-size   PWM_open103V.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10176	     12	   1628	  11816	   2e28	PWM_open103V.elf
+Finished building: default.size.stdout
+ 
+
+15:07:22 Build Finished. 0 errors, 0 warnings. (took 500ms)
+

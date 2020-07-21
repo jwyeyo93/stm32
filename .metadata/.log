@@ -2312,3 +2312,33 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-07-21 13:56:36.949
 !MESSAGE Indexed 'TIM' (24 sources, 73 headers) in 1.17 sec: 3,824 declarations; 14,229 references; 0 unresolved inclusions; 42 syntax errors; 2,866 unresolved names (14%)
+!SESSION 2020-07-21 14:30:42.782 -----------------------------------------------
+eclipse.buildId=Version 1.3.1
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-07-21 14:30:48.228
+!MESSAGE Log4j initialized with config file D:\STM32CubeIDE\workspace\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-07-21 14:30:51.073
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-07-21 14:30:51.667
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-21 14:31:52.583
+!MESSAGE Indexed 'PWM_open103V' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-07-21 14:31:55.007
+!MESSAGE Indexed 'PWM_open103V' (21 sources, 73 headers) in 1.21 sec: 3,813 declarations; 14,120 references; 0 unresolved inclusions; 41 syntax errors; 2,822 unresolved names (14%)
+
+!ENTRY org.eclipse.help.base 2 0 2020-07-21 14:51:37.827
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.cdt.doc.user_5.4.200.201909091956 [161]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2020-07-21 14:51:37.829
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.platform.doc.user_4.13.0.v20190904-0724 [316]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2020-07-21 15:03:10.803
+!MESSAGE Won't launch debug session since we failed to locate the binary.
