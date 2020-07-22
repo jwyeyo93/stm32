@@ -1,0 +1,10 @@
+20:04:33 **** Incremental Build of configuration Debug for project SPI-AT45DBXX ****
+make -j16 all 
+arm-none-eabi-size   SPI-AT45DBXX.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17756	    112	   1744	  19612	   4c9c	SPI-AT45DBXX.elf
+Finished building: default.size.stdout
+ 
+
+20:04:33 Build Finished. 0 errors, 0 warnings. (took 563ms)
+
