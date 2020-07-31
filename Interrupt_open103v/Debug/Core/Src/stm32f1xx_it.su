@@ -1,2 +1,0 @@
-stm32f1xx_it.c:51:6:SysTick_Handler	8	static
-stm32f1xx_it.c:73:6:EXTI0_IRQHandler	8	static

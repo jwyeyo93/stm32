@@ -1,0 +1,10 @@
+11:33:37 **** Incremental Build of configuration Debug for project stm32f746ng_usart ****
+make -j16 all 
+arm-none-eabi-size   stm32f746ng_usart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  14620	    120	   1712	  16452	   4044	stm32f746ng_usart.elf
+Finished building: default.size.stdout
+ 
+
+11:33:37 Build Finished. 0 errors, 0 warnings. (took 352ms)
+
